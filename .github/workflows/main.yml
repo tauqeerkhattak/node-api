@@ -2,7 +2,7 @@ name: deploy app to aws lambda
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
 
@@ -19,4 +19,4 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: ${{ secrets.AWS_REGION }}
           function_name: node-api
-          source: index.js
+          source: node-api/index.js
