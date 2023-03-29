@@ -1,0 +1,23 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "Node AWS Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tauqeerkhattak/node-api.git"
+  },
+  "author": "Tauqeer Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tauqeerkhattak/node-api/issues"
+  },
+  "homepage": "https://github.com/tauqeerkhattak/node-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
